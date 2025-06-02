@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body > h1:first-of-type {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+#nombrePorducto {
+    color: #333;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#precioProducto {
+    font-size: 1.5em;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 0;
+}
