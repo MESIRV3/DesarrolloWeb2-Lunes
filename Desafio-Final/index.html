@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatillas Serapio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">S-zapas</h1>
+            <nav class="navigation">
+                <button id="boton-carrito" class="nav-button">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="contador-carrito">0</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <div id="contenedor-productos" class="product-grid">
+            </div>
+        </div>
+    </main>
+    <aside id="carrito-modal" class="carrito-modal">
+        <div class="carrito-contenido">
+            <header class="carrito-header">
+                <h3>Tu Carrito</h3>
+                <button id="cerrar-carrito" class="cerrar-btn">x</button>
+            </header>
+            <div id="carrito-items" class="carrito-items">
+            </div>
+            <footer class="carrito-footer">
+                <p class="carrito-total">Total: $<span id="carrito-total-precio">0.00</span></p>
+                <button id="vaciar-carrito" class="btn btn-danger">Vaciar Carrito</button>
+                <button id="procesar-pedido" class="btn btn-success">Procesar Pedido</button>
+            </footer>
+        </div>
+    </aside>
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 S-Zapas - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="main.js" defer></script>
+</body>
+</html>
